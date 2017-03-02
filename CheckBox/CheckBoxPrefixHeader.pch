@@ -1,0 +1,41 @@
+//
+//  CheckBoxPrefixHeader.pch
+//  CheckBox
+//
+//  Created by lsm on 16/12/11.
+//  Copyright © 2016年 lsm. All rights reserved.
+//
+
+
+#import "UIColor+SetColor.h"
+#import "AFNetworking.h"
+#import "JFUtils.h"
+#import "Constant.h"
+#import "XMLDictionary.h"
+#import "Jastor.h"
+#import "JSONKit.h"
+#ifndef CheckBoxPrefixHeader_pch
+#define CheckBoxPrefixHeader_pch
+
+#define screenWidth [UIScreen mainScreen].bounds.size.width
+#define screenHeight [UIScreen mainScreen].bounds.size.height
+
+//#define NavigationBarTintColor [UIColor hexStringToColor:@"51c1d2"]
+#define NavigationBarTintColor [UIColor redColor]
+#define kNavWhiteColor [UIColor hexStringToColor:@"fafbfb"]
+#define kNavTintColor [UIColor hexStringToColor:@"666666"]
+#define lightGreenColor [UIColor colorWithRed:76/255.0 green:193/255.0 blue:210/255.0 alpha:1.0]
+
+
+//屏幕宽高
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//字体
+#define maxTextFont [UIFont systemFontOfSize:16]
+#define midTextFont [UIFont systemFontOfSize:14]
+#define minTextFont [UIFont systemFontOfSize:12]
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CheckBoxPrefixHeader_pch */
